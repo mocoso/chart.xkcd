@@ -1,23 +1,28 @@
 <html>
-    <head>
-      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
-    </head>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+    <style>
+      .tick {
+        display: none;
+      }
+      .graph-container {
+        width: 600px;
+        height: 300px;
+        margin: auto;
+        padding: 100px 0 100px 0;
+      }
+    </style>
+  </head>
   <body>
-    <h1><a href="https://github.com/timqian/chart.xkcd/tree/master/examples">Source code of the examples</a></h1>
-    <br/>
-
-    <div style="width: 400px; height: 300px; display: inline-block;"><svg class="bar-chart"></svg></div>
-    <div style="width: 400px; height: 300px; display: inline-block;"><svg class="stacked-bar-chart"></svg></div>
-    <div style="width: 400px; height: 300px; display: inline-block;"><svg class="pie-chart"></svg></div>
-    <div style="width: 400px; height: 300px; display: inline-block;"><svg class="line-chart"></svg></div>
-    <div style="width: 400px; height: 300px; display: inline-block;"><svg class="xyline-chart"></svg></div>
-    <div style="width: 400px; height: 300px; display: inline-block;"><svg class="xyline-chart2"></svg></div>
-    <div style="width: 400px; height: 300px; display: inline-block;"><svg class="radar-chart"></svg></div>
-    <div style="width: 400px; height: 300px; display: inline-block;"><svg class="line-chart-cus"></svg></div>
-    <div style="width: 400px; height: 300px; display: inline-block;"><svg class="line-chart-unxkcdify"></svg></div>
-    <div style="width: 400px; height: 300px; display: inline-block;"><svg class="line-chart-dark"></svg></div>
-
+    <div class="graph-container">
+      <svg class="high-and-low"></svg>
+    </div>
+    <div class="graph-container">
+      <svg class="low"></svg>
+    </div>
+    <div class="graph-container">
+    </div>
     <script src="./index.js"></script>
   </body>
 </html>
