@@ -2,7 +2,7 @@ import chartXkcd from '../src';
 
 const svgHighAndLow = document.querySelector('.high-and-low');
 new chartXkcd.Line(svgHighAndLow, {
-  title: 'Productivity over time',
+  title: 'Made up graph of productivity over time',
   xLabel: 'Time',
   yLabel: 'Productivity',
   data: {
@@ -23,7 +23,7 @@ new chartXkcd.Line(svgHighAndLow, {
 
 const svgLow = document.querySelector('.low');
 new chartXkcd.Line(svgLow, {
-  title: 'Productivity over time',
+  title: 'Made up graph of productivity over time',
   xLabel: 'Time',
   yLabel: 'Productivity',
   data: {
