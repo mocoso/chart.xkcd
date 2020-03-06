@@ -8,10 +8,10 @@ new chartXkcd.Line(svgHighAndLow, {
   data: {
     labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
     datasets: [{
-      label: 'High Quality Code',
+      label: 'High Quality Codebase',
       data: [8.1, 8, 8.1, 7.9, 8, 7.8, 8.1, 8, 7.9, 8],
     }, {
-      label: 'Low Quality Code',
+      label: 'Low Quality Codebase',
       data: [12, 9.3, 6.8, 5.2, 3.6, 2.9, 2.2, 1.5, 1.3, 1],
     }],
   },
@@ -29,7 +29,7 @@ new chartXkcd.Line(svgLow, {
   data: {
     labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
     datasets: [{
-      label: 'Low Quality Code',
+      label: 'Low Quality Codebase',
       data: [12, 9.3, 6.8, 5.2, 3.6, 2.9, 2.2, 1.5, 1.3, 1],
     }],
   },
